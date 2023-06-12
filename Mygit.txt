@@ -1,0 +1,80 @@
+
+Day 1
+===============================================================
+Version Controlling
+============================
+This is the process of maintaining different versions of the code
+All the team members upload their code into the remote version
+contolling system.The VCS accepts the code uploads from multiple
+team members and creates an aintegrated project.Next time when the
+team members download the code they will be able to see all the 
+code created by the entire team.The process of uploading into a
+VCS is called as checkin and downloading is called as checkout.
+
+VCS's also preserve older and later versions of the code so that
+at anypoint we can jump between whichever version that we want
+
+VCS's also keep a track of who is making what kind of changes
+
+
+VCS's are of two types
+1 Centralised Version Controlling System
+2 Distributed Version Controlling System
+
+Centralised Version Controlling System
+---------------------------------------------
+Here we have a remote server where all the team members upload the code
+and version controlling happens only on that remote server
+
+Distributed Version Controlling System
+------------------------------------------------
+Here we have a local repository installed on every team members machine and
+version controlling happens here at the level of individual developer,
+from the local reposiotry the code is uploaded to the remote repository
+where version controlling happens at the level of the entire team
+
+
+Installing git on Windows
+=================================
+1 Open https://git-scm.com/downloads
+2 Download git for windows
+3 Install it
+4 Once git is installed we get an application called gitbash
+  where we can fire the git commands
+
+Installing git on Ubuntu Linux
+====================================
+1 Connect to a ubuntu linux
+2 Update the apt repository
+  sudo apt-get update
+3 Install git
+  sudo apt-get install -y git
+
+Installing git on RHEL,Centos,Fedora
+===========================================
+1 Update the yum repository
+  yum -y update
+2 Install git
+  yum install -y git
+
+-------------------------------------------------------------------
+Setting up username ans email globally for all users on a system
+git config --global user.name "sai krishna"
+git config --global user.email "intelliqittrainings@gmail.com
+
+To see the list of configurations done
+git config --global  --list
+
+----------------------------------------------------------------------
+Git uses three sections when working on the local machine
+Working directory
+Stagging Area
+Local Repository
+
+Working Directory is the location where the team initially stores the 
+data and all the files present here are initailly called untracked files
+
+Stagging Area is the intermediate buffer zone of git where the files
+are sent into and these files are called as stagged files
+
+Local Repository is the location where the files are moved into from the
