@@ -3,3 +3,9 @@
 # Please adapt and uncomment the following lines:
 #	name = Nihaarika
 #	email = nihaarika23@gmail.com
+[init]
+	defaultBranch = master
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
