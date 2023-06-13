@@ -1,4 +1,4 @@
-Metrics data
+Metrics data for Globex Application
 com.dynatrace.builtin:service.requestspermin
 com.dynatrace.builtin:service.requestspermin
 com.dynatrace.builtin:service.failurerate
